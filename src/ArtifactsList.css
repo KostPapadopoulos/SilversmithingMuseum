@@ -1,0 +1,110 @@
+
+#root {
+    position: relative;
+    width: 100vw;
+    height: 200vh; /* double the viewport height to accommodate both full-screen images */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  
+  }
+  
+  
+  .artifacts-image {
+    background-image: url('./assets/images/6.jpg');
+    background-size: cover;
+    background-position: left center;  /* Adjust to start from the left */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;  /* Adjust depending on your layout needs */
+    justify-content: center; /* Centers the content vertically if needed */
+    align-items: center;     /* Centers the content horizontally */
+    position: fixed;         /* Makes the background fixed during scroll */
+    top: 0;
+    left: 0;
+    z-index: 1;             /* Ensures it is behind all other content */
+  }
+  
+  
+.artifacts-return-button {
+    color: white;
+    font-size: 14px;
+    text-align: center; /* Ensure text is centered */
+}
+
+.artifacts-return-button-text {
+    position: fixed;
+    top: 90%;
+    left: 15%; /* Adjust to exactly center the button */
+    transform: translate(-50%, -50%); /* Centering transformation corrected */
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 1; /* Ensure it's above the image */
+    width: 15%;
+    padding-left: 10px; /* Space for the arrow icon */
+}
+
+
+.compass-button{
+    background-image: url('./assets/images/compass.png');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    flex-direction: column;  /* Adjust depending on your layout needs */
+    justify-content: center; /* Centers the content vertically if needed */
+    align-items: center;     /* Centers the content horizontally */
+    position: fixed;         /* Makes the background fixed during scroll */
+    top: 5vh;
+    left: 2000px;
+    z-index: 2;
+}
+
+.compass-button-text{
+  position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 2; /* Ensure it's above the image */
+}
+
+.ashtray-button{
+  background-image: url('./assets/images/ashtray.png');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 300px;
+  display: inline-block;
+  flex-direction: column;  /* Adjust depending on your layout needs */
+  justify-content: center; /* Centers the content vertically if needed */
+  align-items: center;     /* Centers the content horizontally */
+  position: fixed;         /* Makes the background fixed during scroll */
+  top: 8vh;
+  left: 100px;
+  z-index: 2;
+}
+
+  
+
+.ashtray-button-text{
+  position: absolute;
+  top: 5%;
+  left: 47%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 2; /* Ensure it's above the image */
+}
+
+.html {
+    scroll-behavior: smooth;
+  }
+  

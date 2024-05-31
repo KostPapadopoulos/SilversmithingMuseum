@@ -1,0 +1,133 @@
+.compass-text {
+    position: fixed;
+    top: 50px;
+    left: 1250px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+.compass-return-button {
+    color: white;
+    font-size: 14px;
+    text-align: center; 
+}
+ 
+.compass-return-button-text {
+    position: fixed;
+    top: 1150px;
+    left: 200px; 
+    transform: translate(-50%, -50%); 
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 1; 
+    width: 15%;
+    padding-left: 10px;
+}
+ 
+.compass-back-button {
+    color: white;
+    font-size: 14px;
+    text-align: center; 
+}
+ 
+.compass-back-button-text {
+    position: fixed;
+    top: 1100px;
+    left: 200px; 
+    transform: translate(-50%, -50%); 
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 1; 
+    width: 15%;
+    padding-left: 10px;
+}
+ 
+.compass-object {
+    position: fixed;
+    top: 500px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 85%;
+    height: 700px;
+}
+ 
+.compass-zoom-instruction {
+    position: fixed;
+    top: 800px;
+    left: 1050px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 0.5em;
+}
+ 
+.compass-zoom-instruction2 {
+    position: fixed;
+    top: 850px;
+    left: 1050px;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 0.5em;
+}
+ 
+.sound-description {
+    position: fixed;
+    top: 350px;
+    left: 1900px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-top: 0.5em;
+}
+ 
+.play-audio {
+    position: fixed;      
+    top: 410px;
+    left: 2050px;           
+    z-index: 1;
+}
+ 
+.play-audio button {
+  
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: color 0.1s, background-color 0.1s;
+}
+ 
+.play-audio button:hover {
+    color: rgb(0,0,0);
+    background-color: rgb(136, 157, 165);
+}
+
+.language-text-box {
+    position: absolute;
+    bottom: 20%;
+    left: 68%;
+    background-color: rgba(0, 0, 0, 0.15);
+    padding: 5px;
+    color: black;
+    width: 30%;
+    text-align: left;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}

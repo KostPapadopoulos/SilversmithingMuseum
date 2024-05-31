@@ -1,0 +1,12 @@
+# Created by Polycam
+# object name: Test
+newmtl Test_0
+Ka 0.000 0.000 0.000
+Kd 1.000 1.000 1.000
+Ks 0.000 0.000 0.000
+Tr 0.000000
+illum 1
+Ns 1.000000
+map_Kd Test_2_CwVqaHMC.jpg
+normal Test_0_CwVqaHMC.jpg
+map_ao Test_1_CwVqaHMC.jpg
